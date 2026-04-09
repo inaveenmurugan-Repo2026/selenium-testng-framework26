@@ -1,0 +1,25 @@
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="listeners.TestListener"/>
+	<listener class-name="listeners.RetryListener"/>
+</listeners>
+
+    <test name="Login Tests"> 
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+       <test name="Home page Tests"> 
+        <classes>
+            <class name="tests.HomePageTest"/>
+        </classes>
+    </test>
+
+       <test name="Practice Page Tests"> 
+        <classes>
+            <class name="tests.PracticeTest"/>
+        </classes>
+    </test>
+    
+</suite>
